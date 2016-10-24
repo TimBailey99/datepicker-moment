@@ -2,8 +2,10 @@
   "name": "datepicker-moment",
   "version": "2.0.2",
   "description": "A datepicker with the incredible moment.js",
-  "main": "Gruntfile.js",
-  "dependencies": {},
+  "main": "./moment-datapicker/moment-datapicker.js",
+  "dependencies": {
+	"moment": "^2.15.1"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.14.0",
